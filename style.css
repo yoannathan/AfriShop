@@ -41,3 +41,8 @@ nav { display: flex; gap: 1.5rem; }
 .product-content { padding: 1.2rem; }
 .product-content h3 { color: #176b3a; margin-top: 0; }
 .product-content strong { color: #b45309; }
+
+.contact-section { background: #eef7ef; display: flex; gap: 3rem; justify-content: space-between; padding: 3rem 2rem; }
+.contact-section h2 { color: #176b3a; margin-top: 0; }
+.contact-details { min-width: 240px; }
+footer { background: #123c28; color: white; padding: 1rem 2rem; text-align: center; }
