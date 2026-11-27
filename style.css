@@ -30,3 +30,14 @@ nav { display: flex; gap: 1.5rem; }
   padding: 0.8rem 1.2rem;
   text-decoration: none;
 }
+
+.products-section { padding: 4rem 2rem; }
+.section-heading { text-align: center; }
+.eyebrow { color: #d97706; font-weight: bold; text-transform: uppercase; letter-spacing: 0.08em; }
+.section-heading h2 { color: #176b3a; font-size: 2rem; margin-top: 0; }
+.product-grid { display: flex; gap: 1.5rem; justify-content: center; }
+.product-card { background: white; border: 1px solid #e5e7eb; border-radius: 0.7rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%); flex: 1; max-width: 300px; overflow: hidden; }
+.product-card img { display: block; height: 180px; object-fit: cover; width: 100%; }
+.product-content { padding: 1.2rem; }
+.product-content h3 { color: #176b3a; margin-top: 0; }
+.product-content strong { color: #b45309; }
