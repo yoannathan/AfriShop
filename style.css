@@ -46,3 +46,10 @@ nav { display: flex; gap: 1.5rem; }
 .contact-section h2 { color: #176b3a; margin-top: 0; }
 .contact-details { min-width: 240px; }
 footer { background: #123c28; color: white; padding: 1rem 2rem; text-align: center; }
+
+@media (max-width: 760px) {
+  .site-header, .contact-section { align-items: flex-start; flex-direction: column; }
+  nav { flex-wrap: wrap; gap: 0.8rem 1.2rem; }
+  .product-grid { flex-wrap: wrap; }
+  .product-card { min-width: min(100%, 280px); }
+}
